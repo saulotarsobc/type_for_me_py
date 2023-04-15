@@ -1,0 +1,7 @@
+altgraph==0.17.3
+pefile==2023.2.7
+pyinstaller==5.10.1
+pyinstaller-hooks-contrib==2023.2
+pynput==1.7.6
+pywin32-ctypes==0.2.0
+six==1.16.0
