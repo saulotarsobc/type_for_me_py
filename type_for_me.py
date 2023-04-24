@@ -18,6 +18,7 @@ def fillHeader():
     for i in [f"{cong['name']} - {cong['number']}", cong['city'], cong['state'], report['month'], report['year']]:
         bot.press(Key.delete)
         bot.type(str(i))
+        # print(str(i))
         bot.press(Key.tab)
         # sleep(.1)
 
@@ -26,6 +27,7 @@ def fillForm():
     for i in form:
         bot.press(Key.delete)
         bot.type(str(i))
+        # print(str(i))
         bot.press(Key.tab)
         # sleep(.1)
 
